@@ -24,7 +24,3 @@ console.table(stats)//
 
 
 }, 1000)
-
-
-
-//26.54 min video
