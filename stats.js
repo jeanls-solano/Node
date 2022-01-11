@@ -1,5 +1,7 @@
 const { stat } = require('fs')
+
 const os = require('os')
+const log = require("./logger")
 
 //funcão setinterval == a cada segundo irá atualizar a tabela
 
@@ -22,5 +24,6 @@ console.clear()
 console.log(stats)
 console.table(stats)// 
 
+log(`${ JSON.stringify(stats)} \n`)
 
 }, 1000)
